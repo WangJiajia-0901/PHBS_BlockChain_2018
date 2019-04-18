@@ -24,7 +24,7 @@ The different specifications of MGARCH models can be divided into four categorie
 4. `Nonparametric and semiparametric approaches`: Models in this class form an alternative to parametric estimation of the conditional covariance structure. The advantage of these models is that they do not impose a particular structure (that can be misspecified) on the data.<br>
 The DCC-GARCH model belongs to the category 3 above.
 ### Model
-Mathematic in progress.
+Mathematics in progress.
 ## Emprical Analysis
 
 ## Conclusion
