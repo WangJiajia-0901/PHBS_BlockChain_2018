@@ -7,6 +7,7 @@ In this project, I want to use DCC-GARCH model to analyze the volatility spillov
 The data used in this project contains the returns of the Bitcoin, Ether and Litecoin, using each market’s closing prices from 2015/08/07 to 2019/04/05. The total sample of the observations of each time series is 1338. All the prices are listed in US dollars. The data is downloaded from the [CoinMarketCap website](https://coinmarketcap.com/). <br>
 Define the daily closing price returns of cryptocurrency i, y<sub>i,t</sub> as: <br>
 y<sub>i,t</sub>=ln(p<sub>i,t</sub>)-ln(p<sub>i,t-1</sub>)<br>
+where p<sub>i,t</sub> is the closing price of cryptocurrency i on day t.<br>
 
 ## Method
 ## Emprical Analysis
