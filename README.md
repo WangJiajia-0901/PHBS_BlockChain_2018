@@ -37,6 +37,11 @@ Mathematics in progress.
 ### Unit Root Test
 ### Arch Test
 ### Multivariate GARCH Fit
+![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
+![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
+![3](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/3.bmp)
+![4](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/4.bmp)
+![5](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/5.bmp)
 ### Results
 ## Conclusion 
 ## References
