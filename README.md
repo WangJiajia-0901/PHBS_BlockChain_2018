@@ -26,6 +26,10 @@ The DCC-GARCH model belongs to the category 3 above.
 ### Model
 Mathematics in progress.
 ## Emprical Analysis
-
-## Conclusion
+### Statistical View of Data
+### Unit Root Test
+### Arch Test
+### Multivariate GARCH Fit
+### Results
+## Conclusion 
 ## References
