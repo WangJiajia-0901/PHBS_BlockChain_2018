@@ -34,6 +34,11 @@ The DCC-GARCH model belongs to the category 3 above.
 Mathematics in progress.
 ## Emprical Analysis
 ### Statistical View of Data
+|Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|Bitcoin|-0.207530|-0.010107|0.002263|0.002162|0.017238|0.225119|-0.2214035|4.964624|
+|Ether|-1.3065294|-0.0260256|-0.0007707|0.0030592|0.0298530|0.4101490|-3.427667|66.89897|
+|Litecoin|-0.395151|-0.017611|0.000000|0.002279|0.018920|0.510348|1.271129|12.16704|
 ### Unit Root Test
 ### Arch Test
 ### Multivariate GARCH Fit
