@@ -41,19 +41,19 @@ Mathematics in progress.
 |Litecoin|-0.395151|-0.017611|0.000000|0.002279|0.018920|0.510348|1.271129|12.16704|
 ### Unit Root Test
 * Bitcoin return unit root test <br>
-![bitcoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfbitcoinreturn.bmp)
+![bitcoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfbitcoinreturn.bmp) <br>
 `Augmented Dickey-Fuller Test` <br>
 Dickey-Fuller = -9.7392, Lag order = 11, p-value = 0.01 <br>
 *Alternative hypothesis: stationary* <br>
     
 * Ether return unit root test <br>
-![etherreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfetherreturn.bmp)
+![etherreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfetherreturn.bmp) <br>
 `Augmented Dickey-Fuller Test` <br>
 Dickey-Fuller = -9.8653, Lag order = 11, p-value = 0.01 <br>
 *Alternative hypothesis: stationary* <br>
    
 * Litecoin return unit root test <br>
-![litecoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adflitecoinreturn.bmp)
+![litecoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adflitecoinreturn.bmp) <br>
 `Augmented Dickey-Fuller Test` <br>
 Dickey-Fuller = -10.15, Lag order = 11, p-value = 0.01 <br>
 *Alternative hypothesis: stationary* <br>
