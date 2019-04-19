@@ -40,6 +40,14 @@ Mathematics in progress.
 |Ether|-1.3065294|-0.0260256|-0.0007707|0.0030592|0.0298530|0.4101490|-3.427667|66.89897|
 |Litecoin|-0.395151|-0.017611|0.000000|0.002279|0.018920|0.510348|1.271129|12.16704|
 ### Unit Root Test
+* Bitcoin return unit root test
+![bitcoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfbitcoinreturn.bmp)
+|Augmented Dickey-Fuller Test|
+|:------:|
+|data: bitcoinreturn|
+|Dickey-Fuller = -9.7392, Lag order = 11, p-value = 0.01|
+|alternative hypothesis: stationary|
+
 ### Arch Test
 ### Multivariate GARCH Fit
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
