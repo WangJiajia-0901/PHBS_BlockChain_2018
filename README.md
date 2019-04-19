@@ -42,11 +42,22 @@ Mathematics in progress.
 ### Unit Root Test
 * Bitcoin return unit root test
 ![bitcoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfbitcoinreturn.bmp)
-|Augmented Dickey-Fuller Test|
-|:------:|
-|data: bitcoinreturn|
-|Dickey-Fuller = -9.7392, Lag order = 11, p-value = 0.01|
-|alternative hypothesis: stationary|
+`Augmented Dickey-Fuller Test` <br>
+Dickey-Fuller = -9.7392, Lag order = 11, p-value = 0.01 <br>
+*Alternative hypothesis: stationary* <br>
+    
+* Ether return unit root test
+![etherreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adfetherreturn.bmp)
+`Augmented Dickey-Fuller Test` <br>
+Dickey-Fuller = -9.8653, Lag order = 11, p-value = 0.01 <br>
+*Alternative hypothesis: stationary* <br>
+   
+* Litecoin return unit root test
+![litecoinreturnunitroottest](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/adflitecoinreturn.bmp)
+`Augmented Dickey-Fuller Test` <br>
+Dickey-Fuller = -10.15, Lag order = 11, p-value = 0.01 <br>
+*Alternative hypothesis: stationary* <br>
+
 
 ### Arch Test
 ### Multivariate GARCH Fit
