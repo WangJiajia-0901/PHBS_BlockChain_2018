@@ -60,6 +60,21 @@ Dickey-Fuller = -10.15, Lag order = 11, p-value = 0.01 <br>
 
 
 ### Arch Test
+* Bitcoin return Arch Test
+`ARCH LM Test` <br>
+Chi-squared = 110.91, df = 12, p-value < 2.2e-16 <br>
+*Null hypothesis: no ARCH effects* <br>
+   
+* Ether return Arch Test
+` ARCH LM Test` <br>
+Chi-squared = 135.77, df = 12, p-value < 2.2e-16 <br>
+*Null hypothesis: no ARCH effects* <br>
+    
+* Litecoin return Arch Test
+`ARCH LM Test` <br>
+Chi-squared = 76.184, df = 12, p-value = 2.193e-11 <br>
+*Null hypothesis: no ARCH effects* <br>
+
 ### Multivariate GARCH Fit
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
