@@ -77,7 +77,8 @@ Dickey-Fuller = -9.8653, Lag order = 11, p-value = 0.01 <br>
 `Augmented Dickey-Fuller Test` <br>
 Dickey-Fuller = -10.15, Lag order = 11, p-value = 0.01 <br>
 *Alternative hypothesis: stationary* <br>
-
+            
+All the ADF tests present the small p-value rejecting the null hypothesis of unit root which means that all the three cryptocurrencies' returns are stationary. <br> 
 
 ### Arch Test
 * Bitcoin return Arch Test <br>
@@ -94,6 +95,12 @@ Chi-squared = 135.77, df = 12, p-value < 2.2e-16 <br>
 `ARCH LM Test` <br>
 Chi-squared = 76.184, df = 12, p-value = 2.193e-11 <br>
 *Null hypothesis: no ARCH effects* <br>
+
+All the ARCH-LM tests reach the small p-value which means that there are truly ARCH effects in returns of cryptocurrencies.
+
+### Pearson correlation 
+
+
 
 ### Multivariate GARCH Fit
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
