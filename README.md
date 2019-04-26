@@ -36,21 +36,21 @@ The different specifications of MGARCH models can be divided into four categorie
   
 The DCC-GARCH model belongs to the category 3 above.
 ### Models
-Suppose we have returns,__a<sub>t</sub>__, from _n_ assets with expected value 0 and covariance matrix __H<sub>t</sub>__. The the Dynamic Conditional Correlation GARCH Model is defined as:<br>
- __r<sub>t</sub>__ = __μ<sub>t</sub>__ + __a<sub>t</sub>__  <br> 
+Suppose we have returns,_a<sub>t</sub>_, from _n_ assets with expected value 0 and covariance matrix _H<sub>t</sub>_. The the Dynamic Conditional Correlation GARCH Model is defined as:<br>
+ _r<sub>t</sub>_ = _μ<sub>t</sub>_ + _a<sub>t</sub>_  <br> 
               
- __a<sub>t</sub>__ = __H<sub>t</sub><sup>1/2</sup>__ * __z<sub>t</sub>__  <br>
+ _a<sub>t</sub>_ = _H<sub>t</sub><sup>1/2</sup>_ * _z<sub>t</sub>_  <br>
                
- __H<sub>t</sub>__ = __D<sub>t</sub>__ * __R<sub>t</sub>__ * __D<sub>t</sub>__  <br>
+ _H<sub>t</sub>_ = _D<sub>t</sub>_ * _R<sub>t</sub>_ * _D<sub>t</sub>_  <br>
       
-the notation is as following: <br>
-__r<sub>t</sub>__:      n * 1 vector which represents the returns of  _n_ assets at time _t_ <br>
-__a<sub>t</sub>__:      n * 1 vector which is the mean-corrected returns of  _n_ assets at time _t_ <br>
-__μ<sub>t</sub>__:      n * 1 vector which is the ecpected value of the conditional __r<sub>t</sub>__ <br>
-__H<sub>t</sub>__:      n * n conditional variances of __a<sub>t</sub>__ <br>
-__D<sub>t</sub>__:      n * n diagonal matrix of conditional standard deviations of __a<sub>t</sub>__ at time _t_ <br>
-__R<sub>t</sub>__:      n * n diagnoalcorrelation matrix of __a<sub>t</sub>__ at time _t_ <br>
-__z<sub>t</sub>__:      n * 1 vector of i.i.d errors
+The notation is as following: <br>
+_r<sub>t</sub>_:  n * 1 vector which represents the returns of  _n_ assets at time _t_ <br>
+_a<sub>t</sub>_:  n * 1 vector which is the mean-corrected returns of  _n_ assets at time _t_ <br>
+_μ<sub>t</sub>_:  n * 1 vector which is the ecpected value of the conditional _r<sub>t</sub>_ <br>
+_H<sub>t</sub>_:  n * n conditional variances of _a<sub>t</sub>_ <br>
+_D<sub>t</sub>_:  n * n diagonal matrix of conditional standard deviations of _a<sub>t</sub>_ at time _t_ <br>
+_R<sub>t</sub>_:  n * n diagnoalcorrelation matrix of _a<sub>t</sub>_ at time _t_ <br>
+_z<sub>t</sub>_:  n * 1 vector of i.i.d errors
 ## Emprical Analysis
 ### Statistical View of Data
 |Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
