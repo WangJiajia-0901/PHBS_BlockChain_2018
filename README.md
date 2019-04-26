@@ -36,8 +36,10 @@ The different specifications of MGARCH models can be divided into four categorie
   
 The DCC-GARCH model belongs to the category 3 above.
 ### Models
-Suppose we have returns,_a<sub>t</sub>_, from _n_ assets with expected value 0 and covariance matrix __H<sub>t</sub>__. The the Dynamic Conditional Correlation GARCH Model is defined as:<br>
-
+Suppose we have returns,__a<sub>t</sub>__, from _n_ assets with expected value 0 and covariance matrix __H<sub>t</sub>__. The the Dynamic Conditional Correlation GARCH Model is defined as:<br>
+__r<sub>t</sub>__=—__$\mu$<sub>t</sub>__+__a<sub>t</sub>__
+__a<sub>t</sub>__=__H<sub>t</sub><sup>1/2</sup>__z<sub>t</sub>
+ __H<sub>t</sub>__= __D<sub>t</sub>__ __R<sub>t</sub>__ __D<sub>t</sub>__
 ## Emprical Analysis
 ### Statistical View of Data
 |Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
