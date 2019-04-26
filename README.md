@@ -1,10 +1,8 @@
-# Volatility spillover effects in leading cryptocurrencies: A DCC-GARCH Analysis
-## Abstract
-   
+# Dynamic Relationship in leading cryptocurrencies: A DCC-GARCH Analysis
 ## Introduction
-The cryptocurrency is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units and verify the transfer of assets. The first cyrptocurrency, Bitcoin, was created in 2009. Since then, cryptocurrencies have emerged and the number of them is over 2,000. As we all know, the price of cryptocurrency fluctuates very sharply, and the biggest drop in bitcoin has reached 94%. The motivation of this research is to see wether there are spillover effects in the leading cyrptocurrencies: Bitcoin, Ether and Litecoin. Before I started my project, I simply guessed that Bitcoin led other cryptocurrencies' prices considering the public acceptance, transaction volume and the comparatively long history. I also interviewed a few friends who were familar with cryptocurrencies for a question that "Do you think that Bitcoin will affect other cryptocurrencies' price?"  Majority of them answered yes with the reasons as large market circulation, most accepted coin and so on. <br>
+The cryptocurrency is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units and verify the transfer of assets. The first cyrptocurrency, Bitcoin, was created in 2009. Since then, cryptocurrencies have emerged and the number of them is over 2,000. As we all know, the price of cryptocurrency fluctuates very sharply, and the biggest drop in bitcoin has reached 94%. The motivation of this research is to see wether there are comovements in the leading cyrptocurrencies: Bitcoin, Ether and Litecoin. Before I started my project, I simply guessed that  cryptocurrencies' returns co-changed  considering the regulation and policy for all cryptocurrencies. I also interviewed a few friends who were familar with cryptocurrencies for that question. Majority of them answered yes and thought the Bitcoin was the most leading cryptocurrencies. <br>
 In the present paper, the authors investigate connectedness within cryptocurrency markets as well as across the Bitcoin index (hereafter, BPI) and widely traded asset classes such as traditional currencies, stock market indices and commodities, such as gold and Brent oil. A spill over index approach with the spectral representation of variance decomposition networks, is employed to measure connectedness. (Nader, 2018). Through the application of three pair-wise bivariate BEKK models, this paper examines the conditional volatility dynamics along with interlinkages and conditional correlations between three pairs of cryptocurrencies, namely Bitcoin-Ether, Bitcoin-Litecoin, and Ether-Litecoin (Paraskebi, Shaen and Brain, 2019). <br>
-In this project, I want to use pair-wise DCC-GARCH model to analyze the volatility spillover effects in the three leading cryptocurrencies: Bitcoin, Ether and Litecoin.
+In this project, I want to use pair-wise DCC-GARCH model to analyze the dynamic relationship in the three leading cryptocurrencies: Bitcoin, Ether and Litecoin.
 ## Data
 The data used in this project contains the returns of the Bitcoin, Ether and Litecoin, using each market’s closing prices from 2015/08/07 to 2019/04/05. The total sample of the observations of each time series is 1338. All the prices are listed in US dollars. The data is downloaded from the [CoinMarketCap website](https://coinmarketcap.com/). <br>
 ![Bitcoinprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Bitcoin%20price.bmp)
@@ -137,7 +135,7 @@ Now, estimating the three bivariate ARMA(1,1)-DCC-GARCH(1,1) models. <br>
 |Hannan-Quinn| 16.440|
                
                   
-The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the bi-directional spillover effects in Bitcoin and Ether.
+The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the dynamic correlations in Bitcoin and Ether.
               
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.png) <br>
         
@@ -163,7 +161,7 @@ From the dynamic conditional correlation plot between Bitcoin and Ether, we can 
 |Shibata  |    14.074|
 |Hannan-Quinn| 14.098|
                  
-The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the bi-directional spillover effects in Bitcoin and Litecoin. <br>
+The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the dynamic correlations in Bitcoin and Litecoin. <br>
 
 ![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.png) <br>
 Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
@@ -188,7 +186,7 @@ Also, the dynamic conditional correlation plot shows the correlations between Bi
 |Shibata  |    8.5008|
 |Hannan-Quinn| 8.5224|
                 
-Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the bi-directional spillover effects between ether and litecoin. <br>
+Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the dynamic relations between ether and litecoin. <br>
                
 ![el](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/el.png)
 
