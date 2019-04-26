@@ -195,8 +195,8 @@ Similar as the above two plots, this figure also confirms the correlations betwe
 ## Conclusion 
 The  emprical analysis of the volatility spillover effects in Bitcoin, Ether and Litecoin with pair-wise DCC-GARCH models proves my original guess about that. There are comovements  in the three cryptocurrencies and most time are positively correlated. With this conculsion, we can make better investment decisions in cryptocurrencies. The future study is to deeper this project to find more detailed relationship and analyze the ceration changes in different certain period instead of getting the overall conclusion.
 ## References
-[1]  Mandelbrot, B. B.(1963) The Variation of Certain Speculative Prices. The Journal of Business 36, No. 4,394-419.
-[2]  Nader Trabelsi.(2019) Are There Any Volatility Spill-Over Effects among Cryptocurrencies and Widely Traded Asset Classes? Journal of Rish and Financial Management, 11, 66-83.
-[3]  Norwegian University of Science and Technology, Multivariate DCC-GARCH Model-with various error distributions. Lecture notes.
+[1]  Mandelbrot, B. B.(1963) The Variation of Certain Speculative Prices. The Journal of Business 36, No. 4,394-419.<br>
+[2]  Nader Trabelsi.(2019) Are There Any Volatility Spill-Over Effects among Cryptocurrencies and Widely Traded Asset Classes? Journal of Rish and Financial Management, 11, 66-83.<br>
+[3]  Norwegian University of Science and Technology, Multivariate DCC-GARCH Model-with various error distributions. Lecture notes.<br>
 [4]  Paraskevi Katsiampaa.(2019) Shaen Corbet, Brian Lucey. Volatility spillover effects in leading cryptocurrencies: A BEKKMGARCH
-analysis, Finance Research Letters,29, 68–74.
+analysis, Finance Research Letters,29, 68–74. <br>
