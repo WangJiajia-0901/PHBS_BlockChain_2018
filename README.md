@@ -104,6 +104,7 @@ All the ARCH-LM tests reach the small p-value which means that there are truly A
 |Bitcoin| 1.0000000|0.9001795|0.9400632|
 |Ether| 0.9001795|1.0000000|0.9356845|
 |Litecoin|0.9400632|0.9356845|1.0000000|
+The Pearson correlation matrix further shows that the significantly positive correlation in the three crptocurrencies with  nearly 1 correlation coefficients. 
 
 ### Multivariate GARCH Fit
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
