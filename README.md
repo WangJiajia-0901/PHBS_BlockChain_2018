@@ -51,7 +51,12 @@ _μ<sub>t</sub>_:  n * 1 vector which is the ecpected value of the conditional _
 _H<sub>t</sub>_:  n * n conditional variances of _a<sub>t</sub>_ <br>
 _D<sub>t</sub>_:  n * n diagonal matrix of conditional standard deviations of _a<sub>t</sub>_ at time _t_ <br>
 _R<sub>t</sub>_:  n * n diagnoalcorrelation matrix of _a<sub>t</sub>_ at time _t_ <br>
-_z<sub>t</sub>_:  n * 1 vector of i.i.d errors
+_z<sub>t</sub>_:  n * 1 vector of i.i.d errors <br>
+
+    
+h<sub>it</sub>= ω<sub>i</sub>+∑α<sub>iq</sub>a<sub>i,t-q</sub><sup>2</sup>+∑β<sub>ip</sub>h<sub>i,t-p</sub>
+                  
+ 
 ## Emprical Analysis
 ### Statistical View of Data
 |Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
