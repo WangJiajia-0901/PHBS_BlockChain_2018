@@ -111,7 +111,7 @@ The Pearson correlation matrix further shows that the significantly positive cor
 
 ### Multivariate GARCH Fit
 Now, estimating the three bivariate DCC-GARCH(1,1) models. <br>
-* Bitcoin and Ether <br>
+####Bitcoin and Ether
 | |Bitcoin return| Ether| Litecoin|
 |:------:|:------:|:------:|:------:|
 |bitcoinomega|7.476703|0.72995|0.465420 |
