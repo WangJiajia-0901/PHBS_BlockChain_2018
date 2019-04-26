@@ -115,7 +115,7 @@ All the ARCH-LM tests reach the small p-value which means that there are truly A
 The Pearson correlation matrix further shows that the significantly positive correlation in the three crptocurrencies with  nearly 1 correlation coefficients. 
 
 ### Multivariate GARCH Fit
-Now, estimating the three bivariate DCC-GARCH(1,1) models. <br>
+Now, estimating the three bivariate ARMA(1,1)-DCC-GARCH(1,1) models. <br>
 #### Bitcoin and Ether
 | |Estimated|Std.Error|t value| p value|
 |:------:|:------:|:------:|:------:|:------:|
@@ -128,13 +128,39 @@ Now, estimating the three bivariate DCC-GARCH(1,1) models. <br>
 |Jointdcca1|0.089803|0.011608|7.73622|0.000000 |
 |Jointdccb1|0.905648|0.012416|72.94382|0.000000 |
 |Jointmshape|4.513015|0.255703|17.64946|0.000000 |
-           
+                          
+|Information criteria|value|
+|:------:|:------:|
+|Akaike    |   16.417|
+|Bayes    |    16.479|
+|Shibata  |    16.416|
+|Hannan-Quinn| 16.440|
+               
+                  
+The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the spillover effects in Bitcoin and Ether.
+              
+![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.bmp) <br>
+        
+From the dynamic conditional correlation plot between Bitcoin and Ether, we can further conclude that they are co-related most of time, especially after mid-2017. <br>
+
+#### Bitcoin and Litecoin
+| |Estimated|Std.Error|t value| p value|
+|:------:|:------:|:------:|:------:|:------:|
+|bitcoinomega   | 6.012333   | 4.151115 |  1.4484 | 0.14752|
+|bitcoinalpha1 |  0.148902  |  0.026379  | 5.6448 | 0.00000|
+|bitcoin].beta1  |  0.850098   | 0.042624 | 19.9442 | 0.00000|
+|litecoinomega  | 0.002274 |   0.001860 |  1.2227 | 0.22146|
+|litecoinalpha1 | 0.089735 |   0.017098  | 5.2482|  0.00000|
+|litecoin].beta1  | 0.909265 |   0.024931 | 36.4718 | 0.00000|
+|Jointdcca1    |   0.101047  |  0.016398   |6.1621 | 0.00000|
+|Jointdccb1    |   0.892507  |  0.017998 | 49.5883 | 0.00000|
+|Jointmshape  |    4.609205  |  0.307277 | 15.0001 | 0.00000|
           
-![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
-![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
-![3](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/3.bmp)
-![4](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/4.bmp)
-![5](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/5.bmp)
+The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the spillover effects in Bitcoin and Litecoin. <br>
+
+![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.bmp) <br>
+Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
+
 ### Results
 ## Conclusion 
 ## References
