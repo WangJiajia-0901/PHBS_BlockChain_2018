@@ -108,10 +108,9 @@ All the ARCH-LM tests reach the small p-value which means that there are truly A
 |Litecoin|0.9400632|0.9356845|1.0000000|
               
 The Pearson correlation matrix further shows that the significantly positive correlation in the three crptocurrencies with  nearly 1 correlation coefficients. 
-### Multivariate GARCH Fit
 Now, estimating the three bivariate DCC-GARCH(1,1) models.
 * Bitcoin and Ether <br>
-                 
+### Multivariate GARCH Fit
 | |Estimate|Std. Error|t value|Pr(>|t|) |
 |:------:|:------:|:------:|:------:|:------:| 
 |[bitcoin].omega|7.476703|10.242742|0.72995|0.465420 |
