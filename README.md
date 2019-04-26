@@ -111,17 +111,17 @@ The Pearson correlation matrix further shows that the significantly positive cor
 ### Multivariate GARCH Fit
 Now, estimating the three bivariate DCC-GARCH(1,1) models.
 * Bitcoin and Ether <br>
-| |Estimate |Std. Error|t value|Pr(>|t|)|
+|  |Estimate|Std. Error|t value|Pr(>|t|) |
 |:------:|:------:|:------:|:------:|:------:|
-|[bitcoin].omega|7.476703|10.242742|0.72995|0.465420|
-|[bitcoin].alpha1|0.080691|0.031054|2.59845|0.009365|
-|[bitcoin].beta1|0.918309|0.044749|20.52117|0.000000|
-|[ether].omega|0.005664|0.003738|1.51496|0.129783|
-|[ether].alpha1|0.169568|0.024274|6.98553|0.000000|
-|[ether].beta1|0.829432|0.031814|26.07168|0.000000|
-|[Joint]dcca1|0.089803|0.011608|7.73622|0.000000|
-|[Joint]dccb1|0.905648|0.012416|72.94382|0.000000|
-|[Joint]mshape|4.513015|0.255703|17.64946|0.000000|
+|[bitcoin].omega|7.476703|10.242742|0.72995|0.465420 |
+|[bitcoin].alpha1|0.080691|0.031054|2.59845|0.009365 |
+|[bitcoin].beta1|0.918309|0.044749|20.52117|0.000000 |
+|[ether].omega|0.005664|0.003738|1.51496|0.129783 |
+|[ether].alpha1|0.169568|0.024274|6.98553|0.000000 |
+|[ether].beta1|0.829432|0.031814|26.07168|0.000000 |
+|[Joint]dcca1|0.089803|0.011608|7.73622|0.000000 |
+|[Joint]dccb1|0.905648|0.012416|72.94382|0.000000 |
+|[Joint]mshape|4.513015|0.255703|17.64946|0.000000 |
        
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
