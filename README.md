@@ -139,7 +139,7 @@ Now, estimating the three bivariate ARMA(1,1)-DCC-GARCH(1,1) models. <br>
                   
 The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the spillover effects in Bitcoin and Ether.
               
-![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.bmp) <br>
+![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.png) <br>
         
 From the dynamic conditional correlation plot between Bitcoin and Ether, we can further conclude that they are co-related most of time, especially after mid-2017. <br>
 
@@ -155,10 +155,17 @@ From the dynamic conditional correlation plot between Bitcoin and Ether, we can 
 |Jointdcca1    |   0.101047  |  0.016398   |6.1621 | 0.00000|
 |Jointdccb1    |   0.892507  |  0.017998 | 49.5883 | 0.00000|
 |Jointmshape  |    4.609205  |  0.307277 | 15.0001 | 0.00000|
-          
+                    
+|Information criteria|value|
+|:------:|:------:|
+|Akaike    |   14.074|
+|Bayes    |    14.136|
+|Shibata  |    14.074|
+|Hannan-Quinn| 14.098|
+                 
 The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the spillover effects in Bitcoin and Litecoin. <br>
 
-![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.bmp) <br>
+![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.png) <br>
 Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
 
 ### Results
