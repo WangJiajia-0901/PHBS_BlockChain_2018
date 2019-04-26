@@ -123,7 +123,8 @@ Now, estimating the three bivariate DCC-GARCH(1,1) models.
 |[Joint]dcca1|0.089803|0.011608|7.73622|0.000000 |
 |[Joint]dccb1|0.905648|0.012416|72.94382|0.000000 |
 |[Joint]mshape|4.513015|0.255703|17.64946|0.000000 |
-       
+           
+          
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
 ![3](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/3.bmp)
