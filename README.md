@@ -135,11 +135,11 @@ Now, estimating the three bivariate ARMA(1,1)-DCC-GARCH(1,1) models. <br>
 |Hannan-Quinn| 16.440|
                
                   
-The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the dynamic correlations in Bitcoin and Ether.
+The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the dynamic correlations in Bitcoin return and Ether return.
               
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.png) <br>
         
-From the dynamic conditional correlation plot between Bitcoin and Ether, we can further conclude that they are co-related most of time, especially after mid-2017. <br>
+From the dynamic conditional correlation plot between Bitcoin return and Ether return, we can further conclude that they are co-related most of time, especially after mid-2017. <br>
 
 #### Bitcoin and Litecoin
 | |Estimated|Std.Error|t value| p value|
@@ -161,10 +161,10 @@ From the dynamic conditional correlation plot between Bitcoin and Ether, we can 
 |Shibata  |    14.074|
 |Hannan-Quinn| 14.098|
                  
-The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the dynamic correlations in Bitcoin and Litecoin. <br>
+The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the dynamic correlations in Bitcoin return and Litecoin return. <br>
 
 ![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.png) <br>
-Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
+Also, the dynamic conditional correlation plot shows the correlations between Bitcoin return and Litecoin return, especially from the second quarter of 2017. <br>
 
 #### Ether and Litecoin
 | |Estimated|Std.Error|t value| p value|
@@ -186,14 +186,14 @@ Also, the dynamic conditional correlation plot shows the correlations between Bi
 |Shibata  |    8.5008|
 |Hannan-Quinn| 8.5224|
                 
-Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the dynamic relations between ether and litecoin. <br>
+Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the dynamic relations between ether return and litecoin return. <br>
                
 ![el](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/el.png)
 
-Similar as the above two plots, this figure also confirms the correlations between ether and litecoin. Moreover, the most of time the correlations are positive. <br>
+Similar as the above two plots, this figure also confirms the correlations between ether return and litecoin return. Moreover, the most of time the correlations are positive. <br>
 
 ## Conclusion 
-The  emprical analysis of the volatility spillover effects in Bitcoin, Ether and Litecoin with pair-wise DCC-GARCH models proves my original guess about that. There are comovements  in the three cryptocurrencies and most time are positively correlated. With this conculsion, we can make better investment decisions in cryptocurrencies. The future study is to deeper this project to find more detailed relationship and analyze the ceration changes in different certain period instead of getting the overall conclusion.
+The  emprical analysis of the time-varying conditional correlation in returns of Bitcoin, Ether and Litecoin with pair-wise DCC-GARCH models proves my original guess about that. There are comovements  in the three cryptocurrencies and most time are positively correlated. With this conculsion, we can make better investment decisions in cryptocurrencies. The future study is to deeper this project to find more detailed relationship and analyze the ceration changes in different certain period instead of getting the overall conclusion.
 ## References
 [1]  Mandelbrot, B. B.(1963) The Variation of Certain Speculative Prices. The Journal of Business 36, No. 4,394-419.<br>
 [2]  Nader Trabelsi.(2019) Are There Any Volatility Spill-Over Effects among Cryptocurrencies and Widely Traded Asset Classes? Journal of Rish and Financial Management, 11, 66-83.<br>
