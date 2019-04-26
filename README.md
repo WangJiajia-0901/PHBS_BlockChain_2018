@@ -4,7 +4,7 @@
 ## Introduction
 The cryptocurrency is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units and verify the transfer of assets. The first cyrptocurrency, Bitcoin, was created in 2009. Since then, cryptocurrencies have emerged and the number of them is over 2,000. As we all know, the price of cryptocurrency fluctuates very sharply, and the biggest drop in bitcoin has reached 94%. The motivation of this research is to see wether there are spillover effects in the leading cyrptocurrencies: Bitcoin, Ether and Litecoin. Before I started my project, I simply guessed that Bitcoin led other cryptocurrencies' prices considering the public acceptance, transaction volume and the comparatively long history. I also interviewed a few friends who were familar with cryptocurrencies for a question that "Do you think that Bitcoin will affect other cryptocurrencies' price?"  Majority of them answered yes with the reasons as large market circulation, most accepted coin and so on. <br>
 In the present paper, the authors investigate connectedness within cryptocurrency markets as well as across the Bitcoin index (hereafter, BPI) and widely traded asset classes such as traditional currencies, stock market indices and commodities, such as gold and Brent oil. A spill over index approach with the spectral representation of variance decomposition networks, is employed to measure connectedness. (Nader, 2018). Through the application of three pair-wise bivariate BEKK models, this paper examines the conditional volatility dynamics along with interlinkages and conditional correlations between three pairs of cryptocurrencies, namely Bitcoin-Ether, Bitcoin-Litecoin, and Ether-Litecoin (Paraskebi, Shaen and Brain, 2019). <br>
-In this project, I want to use DCC-GARCH model to analyze the volatility spillover effects in the three leading cryptocurrencies: Bitcoin, Ether and Litecoin.
+In this project, I want to use pair-wise DCC-GARCH model to analyze the volatility spillover effects in the three leading cryptocurrencies: Bitcoin, Ether and Litecoin.
 ## Data
 The data used in this project contains the returns of the Bitcoin, Ether and Litecoin, using each market’s closing prices from 2015/08/07 to 2019/04/05. The total sample of the observations of each time series is 1338. All the prices are listed in US dollars. The data is downloaded from the [CoinMarketCap website](https://coinmarketcap.com/). <br>
 ![Bitcoinprice](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/Bitcoin%20price.bmp)
@@ -109,6 +109,19 @@ All the ARCH-LM tests reach the small p-value which means that there are truly A
               
 The Pearson correlation matrix further shows that the significantly positive correlation in the three crptocurrencies with  nearly 1 correlation coefficients. 
 ### Multivariate GARCH Fit
+Now, estimating the three bivariate DCC-GARCH(1,1) models.
+* Bitcoin and Ether <br>
+|Estimate | Std. Error | t value | Pr(>|t|)|
+|:------:|:------:|:------:|:------:|
+|[bitcoin].omega|7.476703|10.242742| 0.72995 | 0.465420|
+|[bitcoin].alpha1|0.080691|0.031054| 2.59845 | 0.009365|
+|[bitcoin].beta1 |0.918309|0.044749| 20.52117| 0.000000|
+|[ether].omega   |0.005664|0.003738|1.51496  | 0.129783|
+|[ether].alpha1  |0.169568|0.024274|6.98553 |0.000000|
+|[ether].beta1 |  0.829432  |  0.031814 | 26.07168 |0.000000|
+|[Joint]dcca1  |   0.089803 |  0.011608 | 7.73622 |0.000000|
+|[Joint]dccb1  |   0.905648 |  0.012416 | 72.94382|0.000000|
+|[Joint]mshape |    4.513015   | 0.255703 |17.64946| 0.000000|
 ![1](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/1.bmp)
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/2.bmp)
 ![3](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/3.bmp)
