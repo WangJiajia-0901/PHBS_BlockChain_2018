@@ -137,7 +137,7 @@ Now, estimating the three bivariate ARMA(1,1)-DCC-GARCH(1,1) models. <br>
 |Hannan-Quinn| 16.440|
                
                   
-The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the spillover effects in Bitcoin and Ether.
+The the coefficients are signicant except the omega of bitcoin and omega of ether which means that there truly exists the bi-directional spillover effects in Bitcoin and Ether.
               
 ![2](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/be.png) <br>
         
@@ -163,7 +163,7 @@ From the dynamic conditional correlation plot between Bitcoin and Ether, we can 
 |Shibata  |    14.074|
 |Hannan-Quinn| 14.098|
                  
-The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the spillover effects in Bitcoin and Litecoin. <br>
+The the coefficients are signicant except the omega of bitcoin and omega of litecoin which means that there truly exists the bi-directional spillover effects in Bitcoin and Litecoin. <br>
 
 ![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.png) <br>
 Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
@@ -188,12 +188,12 @@ Also, the dynamic conditional correlation plot shows the correlations between Bi
 |Shibata  |    8.5008|
 |Hannan-Quinn| 8.5224|
                 
-Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the spillover effects between ether and litecoin. <br>
+Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the bi-directional spillover effects between ether and litecoin. <br>
                
 ![el](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/el.png)
 
 Similar as the above two plots, this figure also confirms the correlations between ether and litecoin. Moreover, the most of time the correlations are positive. <br>
 
-### Results
 ## Conclusion 
+The  emprical analysis of the volatility spillover effects in Bitcoin, Ether and Litecoin with pair-wise DCC-GARCH models proves my original guess about that. There are comovements of volatility spillover effects in the three cryptocurrencies. The reasons for that may be as following. 
 ## References
