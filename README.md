@@ -35,8 +35,12 @@ The different specifications of MGARCH models can be divided into four categorie
 4. `Nonparametric and semiparametric approaches`: Models in this class form an alternative to parametric estimation of the conditional covariance structure. The advantage of these models is that they do not impose a particular structure (that can be misspecified) on the data.<br>
   
 The DCC-GARCH model belongs to the category 3 above.
-### Model
-Mathematics in progress.
+### Models
+Suppose we have returns,_a<sub>t</sub>_, from _n_ assets with expected value 0 and covariance matrix __H<sub>t</sub>__. The the Dynamic Conditional Correlation GARCH Model is defined as:<br>
+┌──────────────────────────┐
+│       TEXT               │ 
+│       TEXT               │
+└──────────────────────────┘ 
 ## Emprical Analysis
 ### Statistical View of Data
 |Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
