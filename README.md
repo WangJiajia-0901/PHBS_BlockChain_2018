@@ -114,6 +114,12 @@ Now, estimating the three bivariate DCC-GARCH(1,1) models. <br>
 ####Bitcoin and Ether
 | |Bitcoin return| Ether| Litecoin|
 |:------:|:------:|:------:|:------:|
+|Bitcoin| 1.0000000|0.9001795|0.9400632|
+|Ether| 0.9001795|1.0000000|0.9356845|
+|Litecoin|0.9400632|0.9356845|1.0000000|
+         
+| |Bitcoin return| Ether| Litecoin|
+|:------:|:------:|:------:|:------:|
 |bitcoinomega|7.476703|0.72995|0.465420 |
          
 |bitcoinalpha1|0.080691|0.031054|2.59845|0.009365 |
