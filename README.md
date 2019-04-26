@@ -168,6 +168,32 @@ The the coefficients are signicant except the omega of bitcoin and omega of lite
 ![bl](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/bl.png) <br>
 Also, the dynamic conditional correlation plot shows the correlations between Bitcoin and Litecoin, especially from the second quarter of 2017. <br>
 
+#### Ether and Litecoin
+| |Estimated|Std.Error|t value| p value|
+|:------:|:------:|:------:|:------:|:------:|
+|etheromega    |  0.018801  |  0.013171  |1.42744 | 0.15345|
+|etheralpha1  |   0.126511  |  0.017359|  7.28812 | 0.00000|
+|etherbeta1    |  0.872489 |   0.022616 |38.57800 | 0.00000|
+|litecoinomega  | 0.003782  |  0.003792 | 0.99721 | 0.31866|
+|litecoinalpha1 | 0.088651  |  0.015605 | 5.68104 | 0.00000|
+|litecoinbeta1  | 0.910349  |  0.024512 |37.13929 | 0.00000|
+|Jointdcca1      | 0.112778 |   0.017238  |6.54238|  0.00000|
+|Jointdccb1    |   0.884633  |  0.017867 |49.51105  |0.00000|
+|Jointmshape   |   4.807511  |  0.282406| 17.02342 | 0.00000|
+                
+|Information criteria|value|
+|:------:|:------:|
+|Akaike    |   8.5011|
+|Bayes    |  8.5633|
+|Shibata  |    8.5008|
+|Hannan-Quinn| 8.5224|
+                
+Similarily, except the omega of ether and omega of litecoin all the coefficients are significant which proves the spillover effects between ether and litecoin. <br>
+               
+![el](https://github.com/WangJiajia-0901/PHBS_BlockChain_2018/blob/master/Image/el.png)
+
+Similar as the above two plots, this figure also confirms the correlations between ether and litecoin. Moreover, the most of time the correlations are positive. <br>
+
 ### Results
 ## Conclusion 
 ## References
