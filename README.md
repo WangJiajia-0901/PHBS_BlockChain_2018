@@ -42,7 +42,15 @@ Suppose we have returns,__a<sub>t</sub>__, from _n_ assets with expected value 0
  __a<sub>t</sub>__ = __H<sub>t</sub><sup>1/2</sup>__ * __z<sub>t</sub>__  <br>
                
  __H<sub>t</sub>__ = __D<sub>t</sub>__ * __R<sub>t</sub>__ * __D<sub>t</sub>__  <br>
-       
+      
+the notation is as following: <br>
+__r<sub>t</sub>__:      n * 1 vector which represents the returns of  _n_ assets at time _t_ <br>
+__a<sub>t</sub>__:      n * 1 vector which is the mean-corrected returns of  _n_ assets at time _t_ <br>
+__μ<sub>t</sub>__:      n * 1 vector which is the ecpected value of the conditional __r<sub>t</sub>__ <br>
+__H<sub>t</sub>__:      n * n conditional variances of __a<sub>t</sub>__ <br>
+__D<sub>t</sub>__:      n * n diagonal matrix of conditional standard deviations of __a<sub>t</sub>__ at time _t_ <br>
+__R<sub>t</sub>__:      n * n diagnoalcorrelation matrix of __a<sub>t</sub>__ at time _t_ <br>
+__z<sub>t</sub>__:      n * 1 vector of i.i.d errors
 ## Emprical Analysis
 ### Statistical View of Data
 |Cryptocuurency return| Min|1st Qu|Median|Mean|3rd Qu|Max|skewness|kurtosis|
